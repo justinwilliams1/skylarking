@@ -15,7 +15,9 @@ void draw() {
   Star curr;
   for (int i = 0; i < stars.size(); i++) {
     curr = stars.get(i);
-    curr.move(6);
+
+    curr.move(69);
+
     curr.render();
   }
 }
